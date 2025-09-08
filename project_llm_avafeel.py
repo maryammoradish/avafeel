@@ -304,7 +304,7 @@ thresholds_selected_df
 
 """### LLama Model"""
 
-!huggingface-cli login --token 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 #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
+!huggingface-cli login --token hf_S...
 
 !huggingface-cli whoami
 
@@ -577,7 +577,7 @@ print(classification_report(y_true, y_pred, labels=labels))
 
 """# ShEMO"""
 
-!huggingface-cli login --token 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 #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
+!huggingface-cli login --token hf_S...
 
 !huggingface-cli whoami
 
