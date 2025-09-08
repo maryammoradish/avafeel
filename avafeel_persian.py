@@ -34,7 +34,7 @@ model_trans = whisper.load_model("medium")  # یا "small", "medium", "large"
 
 """# language model"""
 
-!huggingface-cli login --token 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 #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
+!huggingface-cli login --token hf_....
 
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
@@ -161,7 +161,7 @@ with open(jsonl_path, "w", encoding="utf-8") as f:
     for row in formatted_rows:
         f.write(json.dumps(row, ensure_ascii=False) + "\n")
 
-!huggingface-cli login --token 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 #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
+!huggingface-cli login --token hf_...
 !huggingface-cli whoami
 !pip install -q transformers datasets accelerate peft
 !pip install --upgrade bitsandbytes accelerate transformers peft
@@ -296,7 +296,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 
 # #new model loading
 
-!huggingface-cli login --token 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 #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
+!huggingface-cli login --token hf_S...
 !huggingface-cli whoami
 
 model_id = "mistralai/Mistral-7B-Instruct-v0.3"
