@@ -2730,7 +2730,7 @@
         }
       ],
       "source": [
-        "!huggingface-cli login --token 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 #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"
+        "!huggingface-cli login --token hf_S...
       ]
     },
     {
